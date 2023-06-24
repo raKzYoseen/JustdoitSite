@@ -113,41 +113,25 @@ button:active {
   background-size: 400% 400%;
   animation: gradient 80s ease infinite;
   height: 100vh;
-  position: relative;
-}
-
-.ladin {
-  display: flex;
-  align-items: flex-start;
-  color: white;
-  align-items: center;
-  justify-content: center;
-}
-
-.video-container {
-  width: 45%;
-}
-
-.video-container video {
-  width: 100%;
-  border-radius: 8px;
-  margin-left: 175px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
-}
-
-.text-container {
-  width: 50%;
-  padding-left: 20px;
-}
-
-.text-container h2 {
-  font-size: 24px;
-  margin-bottom: 10px;
   font-family: 'Encode Sans', sans-serif;
-  margin-left: 200px;
-  font-size: 42px;
-  text-align: center;
+  font-size: 24px;
   text-shadow: 0px 2px 3px #2B3044, 0px 4px 16px #2B3044;
+  text-align: center;
+  flex-direction: row-reverse;
+}
+
+#sessao3 h1 {
+
+  width: 30%;
+  margin-left: 50px;
+}
+
+.videocontainer{
+
+  position: relative;
+  width: 30%;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
 }
 
 .overlay {
@@ -201,32 +185,26 @@ footer {
   background-size: 400% 400%;
   animation: gradient 80s ease infinite;
   height: 100vh;
+  flex-direction: column;
 }
 
-.text-container h2 {
-  font-family: 'Encode Sans', sans-serif;
-  font-size: 30px;
-  text-shadow: 0px 2px 3px #2B3044, 0px 4px 16px #2B3044;
+#sessao3 h1 {
+
+  width: 95%;
+  padding: 100px;
   margin: 0px;
-  margin-top: 300px;
-  margin-left: -250px;
+  font-family: 'Encode Sans', sans-serif;
+  font-size: 24px;
+  text-shadow: 0px 2px 3px #2B3044, 0px 4px 16px #2B3044;
+  text-align: center;
 }
 
-.video-container {
-  width: 65%;
-}
+.videocontainer{
 
-.video-container video {
-  width: 200%;
+  position: relative;
+  width: 90%;
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
-  margin: 0px;
-  margin-bottom: 360px;
-  margin-left: 33%;
-}
-
-.text-container {
-  width: 100%;
 }
 
 }
